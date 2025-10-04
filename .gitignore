@@ -1,0 +1,133 @@
+# ======================== #
+#        OS Specific       #
+# ======================== #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+# Note: Typically, Linux temporary files are not committed anyway, but including just in case.
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ======================== #
+#      IDE and Editors     #
+# ======================== #
+
+# Visual Studio Code (VS Code)
+.vscode/
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+# Excludes the project-level directory
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim/NeoVim swap and backup files
+[._]*.swp
+[._]*.swo
+[._]*.swn
+[._]*.bak
+[._]*.tmp
+[._]*.swx
+*~
+
+# Emacs backup files
+#*#
+
+# ======================== #
+#   Python Environment     #
+# ======================== #
+
+# Virtual Environment directories
+# Standard environments
+venv/
+env/
+ENV/
+.venv/
+
+# Virtualenv (newer standard naming)
+# Usually, virtual environments are kept outside the project directory,
+# but include these common names just in case.
+bin/
+lib/
+include/
+
+# Pip cache and log files
+pip-log.txt
+pip.log
+
+# ======================== #
+#       Python Artifacts     #
+# ======================== #
+
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+*.egg-info/
+*.egg
+*.whl
+
+# PyInstaller / Nuitka / cx_Freeze artifacts
+# Bundled executables
+*.spec
+dist/
+build/
+
+# ======================== #
+#         Testing          #
+# ======================== #
+
+# Coverage output
+.coverage
+.cache/
+htmlcov/
+.pytest_cache/
+
+# ======================== #
+#       Documentation      #
+# ======================== #
+
+# Sphinx output (if using `_build`)
+docs/_build/
+
+# ======================== #
+#       Jupyter / IPython  #
+# ======================== #
+
+# IPython checkpoint (temp files)
+.ipynb_checkpoints
+
+# ======================== #
+#      Web Frameworks      #
+# ======================== #
+
+# Django specific (if applicable)
+*.sqlite3
+/media/
+/static/
+
+# Flask/Other config
+instance/
