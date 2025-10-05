@@ -23,7 +23,7 @@ Code
    在 `helpers.py` 或系统环境变量中设置 `MINERU_TOKEN`。
 
 3. **配置每次上传的文件数量:**
-   在 `helpers.py` 中修改 `NUM_FILES_TO_UPLOAD` 变量，控制每次处理的 PDF 文件批次大小 (默认为 5)。
+   在 `helpers.py` 中修改 `NUM_FILES_TO_UPLOAD` 变量，控制每次处理的 PDF 文件批次大小 (默认为 50)。
 
 ## 如何使用
 
